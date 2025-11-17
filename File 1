@@ -1,0 +1,10 @@
+print ("Hello World")
+
+#test = input("Give me data")
+
+num1 = int(1)
+num2 =int(2)
+
+ans = num1 * num2
+
+print(ans)

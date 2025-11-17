@@ -1,0 +1,63 @@
+#x = 25
+#y = 3.14
+#print(type(x), type (y))
+
+#a = 10
+#b = 3
+#print(a/b)
+#print(a//b)
+#print(a * 2.5)
+
+
+
+#first =int(input("What is your first test score?"))
+#second =int(input("What is your second test score?"))
+#third =int(input("What is your third test score?"))
+
+#total = (first + second + third)
+#average = (total/3)
+
+#print ("Your average test score was" ,average, )
+
+
+
+
+
+#menu = "Chicken, Steak, Pizza"
+
+# Ask if the user wants to view the menu
+#choice = input("Would you like to view the menu? (yes/no): ")
+#if choice.lower() == "yes":
+ #   print("Menu:", menu)
+#else:
+ #   print("Ok")
+
+# Ask what the user would like to order
+#option = input("What would you like from the menu? ")
+#option = option.lower()
+
+#if option == "chicken":
+ #   print("You have chosen chicken.")
+#elif option == "steak":
+ #   print("You have picked steak.")
+#elif option == "pizza":
+ #   print("You have chosen pizza.")
+#else:
+ #   print("Unknown choice.")
+
+
+#name = "Alex"
+#greeting = "Hello," + name 
+#print(greeting)
+#print(name.upper(), len(name))
+
+name = input("Please input your first name.")
+name1 = input("Please input your last name.")
+joined = (name+name1)
+length = (len(joined))
+if length > 20:
+    print("Error name invalid:")
+else:
+    print("valid")
+
+

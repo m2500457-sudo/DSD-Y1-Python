@@ -1,0 +1,15 @@
+#Task 2:
+#Ask the user for input (input()) and
+#display a message.
+#Concatenate first and last names.
+#Find the length of a string.
+
+name = input("Please enter your first name: ")
+last_name = input("Please enter your last name: ")
+fullname = name + last_name
+length_of_name = len(final_name)
+if length_of_name > 20:
+    print("Your name is too long.")
+else:
+    print("The length of your name is,", length_of_name, "letters")   
+print (final_name)
