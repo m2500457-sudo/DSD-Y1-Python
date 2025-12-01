@@ -50,7 +50,7 @@ def device_type():
             return device
         else:
             print("Please only use letters.")
-device_type()
+device_type
 
 def get_device_id(information):
     while True:

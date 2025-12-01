@@ -1,0 +1,8 @@
+Player3:90 
+Player3:90 
+Player3:90 
+Player3:dice_roll = random.randint(1, 6) 
+Player3:random.randint(1, 6) 
+ Alfie: 2
+ Alfie: 12
+ Alfie: 123455
