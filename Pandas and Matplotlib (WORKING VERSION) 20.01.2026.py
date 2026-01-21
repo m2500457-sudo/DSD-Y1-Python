@@ -30,7 +30,7 @@ def bar_chart(df, new_category,):
     df.plot(kind="bar", x="product", y="Total Sale", title="Total Sales by Product")
     plt.show()
 #This function createsa a simple bar chart of total sales and the products being sold.
-#bar_chart(df, new_category,)
+bar_chart(df, new_category,)
 
 def daily_revenue_graph():
 
