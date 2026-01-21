@@ -1,0 +1,11 @@
+Track,Artist,Album,Year,Duration,Time_Signature,Danceability,Energy,Key,Loudness,Mode,Speechiness,Acousticness,Instrumentalness,Liveness,Valence,Tempo,Popularity
+Run the World (Girls),Beyonce,4,2011,236093,4,0.732,0.899,0,-4.237,1,0.143,0.00496,4.64E-05,0.372,0.759,127.091,70
+Love On Top,Beyonce,4,2011,267413,4,0.652,0.749,0,-5.248,1,0.0886,0.0848,0,0.604,0.651,94.103,73
+Irreplaceable,Beyonce,B'Day Deluxe Edition,2006,227853,4,0.447,0.694,7,-4.637,0,0.382,0.0293,5.46E-06,0.167,0.509,175.868,69
+XO,Beyonce,BEYONCÉ [Platinum Edition],2013,215946,4,0.47,0.793,0,-8.929,1,0.26,0.164,1.31E-06,0.313,0.216,170.1,65
+Drunk in Love (feat. Jay-Z),Beyonce,BEYONCÉ [Platinum Edition],2013,323480,4,0.583,0.621,5,-6.902,0,0.0479,0.00972,0.00106,0.181,0.399,140.036,71
+Crazy In Love (feat. Jay-Z),Beyonce,Dangerously In Love,2003,236133,4,0.646,0.77,2,-6.596,0,0.226,0.00249,0,0.0715,0.681,99.165,79
+If I Were a Boy,Beyonce,I AM...SASHA FIERCE,2008,249146,4,0.632,0.518,6,-6.126,1,0.0313,0.107,0,0.354,0.427,90.007,64
+Single Ladies (Put a Ring on It),Beyonce,I AM...SASHA FIERCE,2008,193213,4,0.426,0.584,1,-5.293,1,0.296,0.0383,0,0.188,0.272,193.437,64
+Halo,Beyonce,I AM...SASHA FIERCE,2008,261640,4,0.508,0.72,11,-5.908,0,0.0628,0.272,0,0.0563,0.472,79.983,72
+Formation,Beyonce,Lemonade,2016,206080,4,0.896,0.621,5,-6.857,0,0.237,0.00532,0,0.196,0.818,121.966,68
