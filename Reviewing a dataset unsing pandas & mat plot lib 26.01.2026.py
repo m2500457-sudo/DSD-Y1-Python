@@ -12,13 +12,13 @@ def hidden():
     print(test.max())
 
     #This section of code finds the average amount in a  column and rounds it to 2dp.
-    #mean = test.mean()
-    #rounded = round(mean, 2)
-    #print(rounded)
+    mean = test.mean()
+    rounded = round(mean, 2)
+    print(rounded)
 
     #This section of code shows what collums have some missing data by printing them out with a 0.
-    #test = df.isna().sum()
-    #print(test)
+    test = df.isna().sum()
+    print(test)
 #hidden()
 
 def histogram():
