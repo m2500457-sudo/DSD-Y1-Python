@@ -1,0 +1,21 @@
+User's name is A C date and time is 2026-03-09 10:59:04.066942.
+The user chose to have a pie chart created of the most purchased genre.
+User's name is Alfie Causier date and time is 2026-03-09 11:00:44.049671.
+The user chose to have a line chart created of the average price per genre.
+User's name is Alfie Causier date and time is 2026-03-10 15:42:45.959502.
+The user chose to have a line chart created of the average price per genre.
+User's name is A X date and time is 2026-03-10 16:02:57.187224.
+The user chose to have a line chart created of the average price per genre.
+User's name is Alfie Causier date and time is 2026-03-10 16:07:06.891751.
+The user chose to have a line chart created of the average price per genre.
+User's name is Alfie Causier date and time is 2026-03-10 16:11:23.883333.
+The user chose to have a line chart created of the average price per genre.
+User's name is Beyonce Knowles date and time is 2026-03-10 16:13:49.928295.
+The user chose to have a pie chart created of the most purchased genre.
+User's name is Jay Z date and time is 2026-03-10 16:15:07.658680.
+The user chose to have a bar chart created of the most purchased game.
+User's name is Rihanna Fenty date and time is 2026-03-10 16:16:40.411834.
+The user chose to have a bar chart for the total amount of units sold per month.
+User's name is Beyonce Knowles date and time is 2026-03-10 16:19:31.288441.
+User's name is Alfie Causier date and time is 2026-03-10 16:21:45.789542.
+The user chose to have a line chart created of the average price per genre.
