@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(r'/Users/alfiecausier/Documents/python programs/Task4a_data.csv')
+df = pd.read_csv(r"C:\Users\M2500457\OneDrive - Middlesbrough College\Documents\GitHub\DSD-Y1-Python\copy of task4a data.csv")
 
 def task_1():
 
@@ -52,27 +52,25 @@ def task_2():
         plt.show()
     #time_of_day_impact(df)
 #task_2()
+
+
 def task_3():
     def average_likes_per_day():
-
-        df["Date"] = pd.to_datetime(df["Date"], dayfirst=True)
-
-        avg_likes_per_day = (
-            df.groupby("Date")["Likes"]
-            .mean()
-            .reset_index(name="Avg_Likes"))
+        # Convert Date column to datetime objects
+        df['Date'] = pd.to_datetime(df['Date'], dayfirst=True)
         
-        x = avg_likes_per_day["Date"]
-        y = avg_likes_per_day["Avg_Likes"]
-
-        plt.plot(x, y)
-        plt.xlabel("Date")
-        plt.ylabel("Average Likes")
-        plt.title("Average Likes Per Day")
-        plt.xticks(rotation=45)
-        plt.tight_layout()
+        # Calculate the average likes for each unique date
+        avg_likes_per_day = df.groupby('Date')['Likes'].mean()
+        
+        # Display the results
+        print("Average Likes Per Day:")
+        print(avg_likes_per_day)
+        
+        # Optional: Plotting the trend
+        avg_likes_per_day.plot(kind='line', title='Likes Trend Over Time')
+        plt.ylabel('Average Likes')
         plt.show()
-    #average_likes_per_day()
+    average_likes_per_day()
     def total_interactions_by_post_type():
             df["Interactions"] = df["Likes"] + df["Shares"] + df["Comments"]
 
@@ -90,7 +88,7 @@ def task_3():
             plt.ylabel("Total Interactions")
             plt.title("Total Interactions by Post Type")
             plt.show()
-    #total_interactions_by_post_type()
+    total_interactions_by_post_type()
     def time_of_day_impact(df):
         df["Interactions"] = df["Likes"] + df["Shares"] + df["Comments"]
         avg_by_time = df.groupby("Time")["Interactions"].mean()
@@ -105,6 +103,8 @@ def task_3():
         plt.show()
     time_of_day_impact(df)
 task_3()
+
+
 def task_4():
     print("Hi")
     #Which type of post performs best overall?
